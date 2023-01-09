@@ -1,0 +1,25 @@
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+#time {
+  font-size: 100px;
+  text-align: center;
+}
+
+#date {
+  font-size: 30px;
+  text-align: center;
+}
+
+#weather {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
