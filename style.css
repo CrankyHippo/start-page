@@ -10,8 +10,8 @@ body {
 
 .container {
   max-width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
+  // margin-right: auto;
+  // margin-left: auto;
 }
 
 .btn {
@@ -23,7 +23,6 @@ body {
 
   background-color: transparent;
   border: 2px solid transparent;
-  box-shadow: 0 0 0 2px black;
   border-radius: 0.3rem;
 
   appearance: none;
@@ -35,8 +34,7 @@ body {
 
 .btn--red {
   color: #b7043d;
-
-  box-shadow: 0 0 0 2px #b7043d;
+  border-color: #b7043d;
 }
 
 .btn--red:hover {
@@ -46,21 +44,18 @@ body {
 
 .btn--bg-blue {
   color: white;
-
   background-color: #0954a4;
   border-color: #0954a4;
-  box-shadow: 0 0 0 2px #0954a4;
 }
 
 .btn--bg-blue:hover {
   background-color: #064281;
   border-color: #064281;
-  box-shadow: 0 0 0 2px #064281;
 }
 
 .tasks {
-  // display: flex;
-  // flex-direction: column;
+  display: flex;
+  flex-direction: column;
   margin: 0 0 2rem;
   padding: 0;
   gap: 1rem;
@@ -105,7 +100,7 @@ body {
 }
 
 .task__checkbox:checked + .task__checkbox-custom {
-  background-color: black;
+  background-color: green;
 }
 
 .task__text {

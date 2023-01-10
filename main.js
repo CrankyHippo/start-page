@@ -6,7 +6,7 @@ function time() {
     let now = new Date();
     let options = { hour: 'numeric', minute: 'numeric'};
     getElem("time").innerHTML = now.toLocaleTimeString("en-US", options);
-    setTimeout(time, 1000)
+    setTimeout(time, 5000)
 }
 
 function date() {
